@@ -1,0 +1,23 @@
+# Eclipse IDE
+.project
+.cache
+.buildpath
+
+# Project directories
+Projects/
+
+# Virtual machines
+.VirtualBox/
+VirtualBox VMs/
+
+# Auth information
+.ssh/known_hosts
+.ssh/*_rsa
+.ssh/*_rsa.pub
+
+# Application related
+bin/
+.gem/
+
+# State / history files
+.viminfo

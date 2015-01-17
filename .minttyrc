@@ -1,0 +1,5 @@
+BoldAsFont=no
+Transparency=medium
+Font=Lucida Console
+FontHeight=12
+Term=xterm-256color
