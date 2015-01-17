@@ -1,0 +1,13 @@
+== Creating a Windows send of a directory to a Cygwin terminal
+
+Create a shortcut in:
+
+  C:\Users\{Windows Username}\AppData\Roaming\Microsoft\Windows\SendTo\
+
+with:
+  
+  Cygwin terminal -> C:\cygwin64\bin\mintty.exe -i /Cygwin-Terminal.ico C:\cygwin64\bin\bash.exe  -l -c "cd \"$0\" ; exec bash"
+
+
+Now you can find a Cygwin terminal launcher in the File Explorer context menu
+under the Send to section. 
