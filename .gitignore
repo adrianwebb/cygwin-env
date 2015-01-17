@@ -2,6 +2,7 @@
 .project
 .cache
 .buildpath
+.externalToolBuilders
 
 # Project directories
 Projects/
@@ -11,6 +12,8 @@ Projects/
 VirtualBox VMs/
 
 # Auth information
+.ssh/.agent_socket
+.ssh/.agent_pid
 .ssh/known_hosts
 .ssh/*_rsa
 .ssh/*_rsa.pub
@@ -20,4 +23,5 @@ bin/
 .gem/
 
 # State / history files
+.bash_history
 .viminfo
